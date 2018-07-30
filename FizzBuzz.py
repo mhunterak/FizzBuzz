@@ -1,10 +1,9 @@
 for i in range(1,101):
+	s=''
 	if i%3 == 0:
-		if i%5 == 0:
-			print "FizzBuzz"
-		else:
-			print "Fizz"
-	elif i%5 == 0:
-		print "Buzz"
-	else:
-		print i
+		s+="Fizz"
+	if i%5 == 0:
+		s+="Buzz"
+	if 0 != i%3 and i%5:
+		s=i
+	print s
