@@ -1,2 +1,2 @@
 # Fizz Buzz
-Proof that I can at least code my way out of a wet paper bag.
+Proof that I can code my way out of a wet paper bag
